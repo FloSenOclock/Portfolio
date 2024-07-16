@@ -9,7 +9,7 @@ const Hero = () => {
           <h1 className="text-4xl font-bold">Hello there</h1>
           <img
             className="rounded-full size-28 mx-auto mb-4"
-            src="./src/assets/img/pixelCV.jpg"
+            src="/images/pixelCV.jpg"
             alt="Senor Florian Picture"
           />
           <p className="py-2 text-left text-sm">

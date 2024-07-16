@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        minitel: ["Minitel"],
+        minitel: ["Minitel", "sans-serif"],
       },
       colors: {
         light: {
@@ -29,5 +29,6 @@ export default {
       },
     },
   },
+  variants: {},
   plugins: [],
 };
