@@ -27,10 +27,10 @@ const Courses = () => {
         {coursesList.map((course, index) => (
           <li
             key={index}
-            className=" my-2 p-2 border-x-2 border-y-8 border-light-border dark:border-dark-border  hover:contrast-0"
+            className="max-w-5xl my-2 p-2 border-x-2 border-y-8 border-light-border dark:border-dark-border  hover:contrast-0"
           >
             <a href={course.url} target="_blank" rel="noopener noreferrer">
-              <h3 className="inline-flex items-center gap-2">
+              <h3 className="text-lg mb-2 inline-flex items-center gap-2">
                 <strong>{course.name}</strong>
               </h3>
               <p>

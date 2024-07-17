@@ -6,12 +6,14 @@ const Projects = () => {
     {
       icon: <LuChefHat />,
       name: "HollyFood",
+      target: "_blank",
       description: "Recipe App using React, Node and PostgreSQL",
       url: "https://projet-hollyfood-front.onrender.com/",
     },
     {
       icon: <MdBakeryDining />,
       name: "Boule Ange",
+      target: "#",
       description:
         "Under Construction - Ecommerce App using Typescript, React, Node and PostgreSQL",
       url: "#",
@@ -25,10 +27,14 @@ const Projects = () => {
         {projectsList.map((project, index) => (
           <li
             key={index}
-            className=" my-2 p-2 border-x-2 border-y-8 border-light-border dark:border-dark-border  hover:contrast-0"
+            className="max-w-5xl my-2 p-2 border-x-2 border-y-8 border-light-border dark:border-dark-border  hover:contrast-0"
           >
-            <a href={project.url} target="_blank" rel="noopener noreferrer">
-              <h3 className="inline-flex items-center gap-2">
+            <a
+              href={project.url}
+              target={project.target}
+              rel="noopener noreferrer"
+            >
+              <h3 className="text-lg mb-2 inline-flex items-center gap-2">
                 {project.icon}
                 <strong>{project.name}</strong>
               </h3>
