@@ -13,7 +13,7 @@ const Projects = () => {
     {
       icon: <MdBakeryDining />,
       name: "Boule Ange",
-      target: "#",
+      target: "",
       description:
         "Under Construction - Ecommerce App using Typescript, React, Node and PostgreSQL",
       url: "#",
