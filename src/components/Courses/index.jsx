@@ -1,20 +1,20 @@
 const Courses = () => {
   const coursesList = [
     {
-      name: "O'clock - Développeur Web et accessibilité",
+      name: "O'clock - Web Developer and Accessibility",
       content:
-        "Formation Développeur Web et Web Mobile Niveau 5 spécialisation en accessibilité numérique. 1500 heures, 2 mois de projet tutoré",
+        "Web and Mobile Web Developer Training, Level 5, Specializing in Digital Accessibility. 1500 hours, 2 months of supervised project.",
       url: "https://oclock.io/formations/developpeur-web-et-accessibilite",
     },
     {
       name: "Dyma",
-      content: "Autoformation HTML, CSS, Javascript",
+      content: "Self-training in HTML, CSS, JavaScript",
       url: "https://dyma.fr/",
     },
     {
-      name: "Master Intelligence économique et analyse des risques",
+      name: " Master in Business Intelligence and Risk Analysis",
       content:
-        "Sciences de l’information de la communication. Gestion, management, management de projet numérique. Intelligence économique, ingénierie de l'information et veille. Management des risques et gestion de crise. Sciences de l’information de la communication...  ",
+        "Information and Communication Sciences. Management, project management, digital project management. Economic intelligence, information engineering, and monitoring. Risk management and crisis management...  ",
       url: "https://formations.univ-gustave-eiffel.fr/master/detail/intelligence-strategique-analyse-des-risques-et-territoires-isart-314",
     },
   ];
