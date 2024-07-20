@@ -2,7 +2,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { FaReact, FaGithub } from "react-icons/fa";
 import { IoLogoNodejs } from "react-icons/io5";
 import { SiJavascript, SiPostgresql } from "react-icons/si";
-const Skills = () => {
+const Skills = ({ french }) => {
   const skillsList = [
     {
       icon: <SiJavascript className="text-yellow-400 text-xl" />,
@@ -26,7 +26,11 @@ const Skills = () => {
 
   return (
     <section className="flex flex-col  items-center justify-center text-center m-4 pt-8">
-      <h2 className="text-2xl font-bold">Skills</h2>
+      {french ? (
+        <h2 className="text-2xl font-bold">Compétences</h2>
+      ) : (
+        <h2 className="text-2xl font-bold">Skills</h2>
+      )}
 
       <article className=" md:flex md:flex-wrap justify-center m-2 text-sm">
         {skillsList.map((skill, index) => (

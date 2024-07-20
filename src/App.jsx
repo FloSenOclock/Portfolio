@@ -9,7 +9,11 @@ import "./App.css";
 
 function App() {
   const [isDark, setIsDark] = useState(false);
+  const [french, setFrench] = useState(false);
 
+  const toggleFrench = () => {
+    setFrench(!french);
+  };
   const toggleTheme = () => {
     setIsDark(!isDark);
     document.body.classList.toggle("dark");
@@ -17,14 +21,19 @@ function App() {
 
   return (
     <div className={isDark ? "dark" : ""}>
-      <Header toggleTheme={toggleTheme} isDark={isDark} />
+      <Header
+        toggleTheme={toggleTheme}
+        isDark={isDark}
+        toggleFrench={toggleFrench}
+        french={french}
+      />
       <main className="min-h-screen border-x-8 border-light-border dark:border-dark-border bg-light-background dark:bg-dark-background text-light-text dark:text-dark-text ">
-        <Hero />
-        <Projects />
-        <Skills />
-        <Courses />
+        <Hero french={french} />
+        <Projects french={french} />
+        <Skills french={french} />
+        <Courses french={french} />
       </main>
-      <Footer />
+      <Footer french={french} />
     </div>
   );
 }
