@@ -22,7 +22,7 @@ const Hero = ({ french }) => {
               Je suis Florian Senor <br /> et aime développer des projets avec{" "}
               <span className="flex items-center justify-center ">
                 React
-                <FaReact className="text-xl text-cyan-400 mx-1 animate-[spin_5s_linear_infinite]" />
+                <FaReact className="text-xl mx-2 text-cyan-400 mx-1 animate-[spin_5s_linear_infinite]" />
                 et Node.js{" "}
                 <IoLogoNodejs className="text-xl text-green-400 mx-1" />.
               </span>
@@ -41,7 +41,7 @@ const Hero = ({ french }) => {
               My name is Florian Senor <br /> and i like to build things with{" "}
               <span className="flex items-center justify-center ">
                 React
-                <FaReact className="text-xl text-cyan-400 mx-1 animate-[spin_5s_linear_infinite]" />
+                <FaReact className="text-xl mx-2 text-cyan-400 mx-1 animate-[spin_5s_linear_infinite]" />
                 and Node.js{" "}
                 <IoLogoNodejs className="text-xl text-green-400 mx-1" />.
               </span>
