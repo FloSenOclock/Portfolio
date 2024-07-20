@@ -15,11 +15,7 @@ const Header = ({ toggleTheme, isDark, toggleFrench, french }) => {
               {isDark ? <LightModeIcon /> : <DarkModeIcon />}
             </button>
           </li>
-          <li className="hover:rotate-6 hover:text-light-txthover dark:hover:text-dark-txthover text-xs font-bold ">
-            <button onClick={toggleFrench} aria-label="Toggle language">
-              {french ? <p>EN</p> : <p>FR</p>}
-            </button>
-          </li>
+
           <li className="hover:rotate-6 hover:text-light-txthover dark:hover:text-dark-txthover">
             <a
               aria-label="LinkedIn"
@@ -42,6 +38,11 @@ const Header = ({ toggleTheme, isDark, toggleFrench, french }) => {
             <a aria-label="Email" href="mailto:floriansenor@gmail.com">
               <EmailIcon />
             </a>
+          </li>
+          <li className="hover:rotate-6 hover:text-light-txthover dark:hover:text-dark-txthover text-xs font-bold ">
+            <button onClick={toggleFrench} aria-label="Toggle language">
+              {french ? <p>EN</p> : <p>FR</p>}
+            </button>
           </li>
         </ul>
       </div>

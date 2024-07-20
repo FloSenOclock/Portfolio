@@ -7,9 +7,9 @@ const Hero = ({ french }) => {
       <div className=" border-x-2 border-y-8 border-light-border dark:border-dark-border  m-2 max-w-xl flex p-2 text-center ">
         <div>
           {french ? (
-            <h1 className="text-4xl font-bold">Bonjour !</h1>
+            <h1 className="text-4xl font-bold my-2">Bonjour!</h1>
           ) : (
-            <h1 className="text-4xl font-bold">Hello there</h1>
+            <h1 className="text-4xl font-bold my-2">Hello there</h1>
           )}
           <img
             className="rounded-full size-28 mx-auto mb-4"
