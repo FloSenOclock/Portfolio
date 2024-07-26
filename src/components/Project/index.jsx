@@ -7,8 +7,10 @@ const Projects = ({ french }) => {
       icon: <LuChefHat />,
       name: "HollyFood",
       target: "_blank",
-      enDesc: "Recipe App using React, Node and PostgreSQL",
-      frDesc: "Application utlisant React, Node and PostgreSQL",
+      enDesc:
+        "Recipe App using React, Node and PostgreSQL, hosted on a free database you could have to wait a little for content.",
+      frDesc:
+        "Application utlisant React, Node and PostgreSQL, hébergé sur une base de donnée gratuite, le contenu peut mettre un peu de temps à s'afficher.",
       url: "https://projet-hollyfood-front.onrender.com/",
     },
     {
